@@ -1,0 +1,13 @@
+github.com/geniousphp/autowire v0.1.2 h1:dakAlHMllrth4ROIXsCSMvm3xitHCThYZYci/qr7ZsQ=
+github.com/geniousphp/autowire v0.1.2/go.mod h1:pRgs/b4qR0EzqLeRjK/5wrTQiKiv1868YsqHNdyVRGc=
+github.com/hashicorp/consul v1.4.0 h1:PQTW4xCuAExEiSbhrsFsikzbW5gVBoi74BjUvYFyKHw=
+github.com/hashicorp/consul v1.4.0/go.mod h1:mFrjN1mfidgJfYP1xrJCF+AfRhr6Eaqhb2+sfyn/OOI=
+github.com/hashicorp/go-cleanhttp v0.5.0 h1:wvCrVc9TjDls6+YGAF2hAifE1E5U1+b4tH6KdvN3Gig=
+github.com/hashicorp/go-cleanhttp v0.5.0/go.mod h1:JpRdi6/HCYpAwUzNwuwqhbovhLtngrth3wmdIIUrZ80=
+github.com/hashicorp/go-rootcerts v0.0.0-20160503143440-6bb64b370b90 h1:VBj0QYQ0u2MCJzBfeYXGexnAl17GsH1yidnoxCqqD9E=
+github.com/hashicorp/go-rootcerts v0.0.0-20160503143440-6bb64b370b90/go.mod h1:o4zcYY1e0GEZI6eSEr+43QDYmuGglw1qSO6qdHUHCgg=
+github.com/hashicorp/serf v0.8.1 h1:mYs6SMzu72+90OcPa5wr3nfznA4Dw9UyR791ZFNOIf4=
+github.com/hashicorp/serf v0.8.1/go.mod h1:h/Ru6tmZazX7WO/GDmwdpS975F019L4t5ng5IgwbNrE=
+github.com/mitchellh/go-homedir v1.0.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
+github.com/mitchellh/mapstructure v1.1.2 h1:fmNYVwqnSfB9mZU6OS2O6GsXM+wcskZDuKQzvN1EDeE=
+github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
