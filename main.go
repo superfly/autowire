@@ -221,6 +221,7 @@ func initialize(ConsulClient *api.Client, physicalIPAddr string, privKey string,
 			Behavior: "release",
 			TTL:      "10s",
 		},
+		MonitorRetries: 20,
 	}
 	lock, err := ConsulClient.LockOpts(opts)
 	if err != nil {
