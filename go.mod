@@ -3,6 +3,7 @@ module github.com/geniousphp/autowire
 go 1.13
 
 require (
+	github.com/PuerkitoBio/rehttp v1.0.1-0.20190614133133-3acc8749c14f // indirect
 	github.com/armon/go-metrics v0.3.1 // indirect
 	github.com/hashicorp/consul v1.4.0
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
@@ -13,5 +14,6 @@ require (
 	github.com/mitchellh/go-homedir v1.0.0 // indirect
 	github.com/mitchellh/go-testing-interface v1.0.0 // indirect
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
+	github.com/PuerkitoBio/rehttp v1.0.0
 	github.com/pkg/errors v0.9.1 // indirect
 )

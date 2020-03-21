@@ -7,12 +7,14 @@ import (
 	"io/ioutil"
 	"log"
 	"net"
+	"net/http"
 	"os"
 	"os/exec"
 	"strconv"
 	"strings"
 	"time"
 
+	"github.com/PuerkitoBio/rehttp"
 	"github.com/geniousphp/autowire/ifconfig"
 	"github.com/geniousphp/autowire/util"
 	"github.com/geniousphp/autowire/wireguard"
@@ -39,7 +41,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	conf := api.DefaultConfig()
+	defaultConf := api.DefaultConfig()
+	retryTransport := rehttp.NewTransport(defaultConf.Transport, rehttp.RetryAll(rehttp.RetryMaxRetries(10), rehttp.RetryTemporaryErr(), rehttp.RetryStatuses(500)), rehttp.ExpJitterDelay(1*time.Second, 15*time.Second))
+
+	conf := &api.Config{
+		HttpClient: &http.Client{Transport: retryTransport},
+	}
 	ConsulClient, err := api.NewClient(conf)
 	if err != nil {
 		log.Fatal(err)

@@ -1,4 +1,8 @@
 github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
+github.com/PuerkitoBio/rehttp v1.0.0 h1:aJ7A7YI2lIvOxcJVeUZY4P6R7kKZtLeONjgyKGwOIu8=
+github.com/PuerkitoBio/rehttp v1.0.0/go.mod h1:ItsOiHl4XeMOV3rzbZqQRjLc3QQxbE6391/9iNG7rE8=
+github.com/PuerkitoBio/rehttp v1.0.1-0.20190614133133-3acc8749c14f h1:Vik1KKUFnrV9SJgPwI9EXWsXKTkBb7n1OJ7jzxNgUOo=
+github.com/PuerkitoBio/rehttp v1.0.1-0.20190614133133-3acc8749c14f/go.mod h1:ItsOiHl4XeMOV3rzbZqQRjLc3QQxbE6391/9iNG7rE8=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
