@@ -42,6 +42,11 @@ func main() {
 	}
 
 	defaultConf := api.DefaultConfig()
+	if tlsConf, err := api.SetupTLSConfig(&defaultConf.TLSConfig); err == nil {
+		defaultConf.Transport.TLSClientConfig = tlsConf
+	} else {
+		panic(fmt.Errorf("could not setup tls config: %+v\n", err))
+	}
 	retryTransport := rehttp.NewTransport(defaultConf.Transport, rehttp.RetryAll(rehttp.RetryMaxRetries(10), rehttp.RetryTemporaryErr(), rehttp.RetryStatuses(500)), rehttp.ExpJitterDelay(1*time.Second, 15*time.Second))
 
 	conf := &api.Config{
